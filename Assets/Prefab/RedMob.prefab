@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3616042719392336827}
   - component: {fileID: 514007033230784858}
   - component: {fileID: 3494294751000528296}
+  - component: {fileID: 6201455556364921471}
   m_Layer: 0
   m_Name: RedMob
   m_TagString: Untagged
@@ -124,6 +125,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.6743942, y: 0.80434346}
   m_Direction: 0
+--- !u!114 &6201455556364921471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4458290802099541538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f32105183ce2445b04971317782cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5581683986277271294
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,7 +161,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5581683986277271294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.449, z: 0}
+  m_LocalPosition: {x: 0, y: 0.418, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -165,6 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1524600940442264912}
   - component: {fileID: 2521417271506162459}
+  - component: {fileID: 2524633323512585580}
   m_Layer: 0
   m_Name: RedTurret
   m_TagString: Untagged
@@ -240,3 +254,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2524633323512585580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810960725074138622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf49ccf96ee960344a51460c0d1eded5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 4184261265455857554, guid: 40e99141c77e8534d8d7464e81ba9e40, type: 3}
+  firePoint: {fileID: 5581683986277271294}
